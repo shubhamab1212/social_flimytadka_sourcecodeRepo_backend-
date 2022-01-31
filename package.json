@@ -17,6 +17,6 @@
   },
    
 "scripts": {
-      "sonar": "node sonar-project.js"
+      "sonar": "node sonar-project.properties"
 }
 }
