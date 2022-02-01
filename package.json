@@ -17,5 +17,8 @@
   },
       "scripts": {
         "sonar-scanner": "/home/ubuntu/node_modules/sonar-scanner/bin/sonar-scanner"
-      }
+  },
+     "scripts": {
+        "test": "mocha --recursive --exit"
+}
 }
