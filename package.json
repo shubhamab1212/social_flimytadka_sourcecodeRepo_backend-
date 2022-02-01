@@ -17,7 +17,7 @@
   },
   {
       "scripts": {
-        "sonar-scanner": "node_modules/sonar-scanner/bin/sonar-scanner.bat"
+        "sonar-scanner": "/home/ubuntu/node_modules/sonar-scanner"
       }
     }
 }
