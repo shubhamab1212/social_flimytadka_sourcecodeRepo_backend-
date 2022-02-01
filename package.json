@@ -15,9 +15,7 @@
     "sequelize": "^6.12.5",
     "sequelize-cockroachdb": "^6.0.4"
   },
-  {
       "scripts": {
         "sonar-scanner": "/home/ubuntu/node_modules/sonar-scanner"
       }
-    }
 }
