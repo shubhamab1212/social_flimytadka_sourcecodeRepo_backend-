@@ -14,5 +14,10 @@
     "express": "^4.17.1",
     "sequelize": "^6.12.5",
     "sequelize-cockroachdb": "^6.0.4"
-  }
+  },
+  {
+      "scripts": {
+        "sonar-scanner": "node_modules/sonar-scanner/bin/sonar-scanner.bat"
+      }
+    }
 }
