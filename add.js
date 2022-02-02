@@ -1,22 +1,27 @@
-const subtract = (a, b) => a - b
+const chai = require('chai')
+const expect = chai.expect
 
-function add(a , b) {
- 
-  // Convert both the integers to string
-  var s1 = a.toString();
-  var s2 = b.toString();
+const calculator = require('./add.js');
+const prompt = require("prompt-sync")({ sigint: true});
+const a = prompt("enter first number : ");
+const b = prompt("enter second number : ");
 
-  // Concatenate both strings
-  var s = s1 + s2;
+describe('Condition', () => {
+	describe('Addition', () => {
+		it('Additon of two numbers', () => {
+			let result=calculator.add(a, b)
+			expect(calculator.add(a, b)).to.equal(result)
+			console.log(result);
+		})
 
-  // Convert the concatenated string
-  // to integer
-  var c = parseInt(s);
 
-  // return the formed integer
-  return c;
-}
-module.exports = {
-    add,
-    subtract,
-}
+    describe('Subtraction', () => {
+        it('substraction of two numbers ', () => {
+			let result=calculator.subtract(a, b)
+            expect(calculator.subtract(a, b)).to.equal(result)
+			console.log(result);
+        })
+})
+	})
+
+})
