@@ -21,6 +21,6 @@
      "scripts": {
         "test": "mocha"
 },
-  { "name": "tokengen", "version": "1.0.0", "description": "", "main": "index.js", "scripts": { "test": "echo \"Error: no test specified\" && exit 1" }, "author": "", "license": "ISC", "dependencies": { "@cliqz/adblocker-puppeteer": "^1.23.2", "cross-fetch": "^3.1.4", "prompt-sync": "^4.2.0", "puppeteer-extra-plugin-recaptcha": "^3.5.0", "puppeteer-extra-plugin-stealth": "^2.9.0", "unique-names-generator": "^4.6.0" }
+  "scripts": { "test": "echo \"Error: no test specified\" && exit 1" }, "author": "", "license": "ISC", "dependencies": { "@cliqz/adblocker-puppeteer": "^1.23.2", "cross-fetch": "^3.1.4", "prompt-sync": "^4.2.0", "puppeteer-extra-plugin-recaptcha": "^3.5.0", "puppeteer-extra-plugin-stealth": "^2.9.0", "unique-names-generator": "^4.6.0" 
 }
 }
